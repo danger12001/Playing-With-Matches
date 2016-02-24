@@ -1,9 +1,117 @@
-#num1 {
-  font-size: 100px;
-  color: red;
-  font-family: sans-serif;
-  background-color: blue;
-  text-align: center;
-  height: 200px;
-  width: 100%;
+#Row1 {
+  float: left;
 }
+#Row2 {
+  float: inherit;
+}
+#Row3 {
+  float: right;
+}
+/*#num1 {
+  height: 200px;
+   background: #000;
+   font-size: 48px;
+   font-style: oblique;
+   color: #FFF;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 5px;
+   width: 33.33%;
+  line-height: 100px;
+}
+#num2 {
+  height: 200px;
+   background: #000;
+   font-size: 48px;
+   font-style: oblique;
+   color: #FFF;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 5px;
+   width: 33.33%;
+  line-height: 100px;
+}
+#num3 {
+  height: 200px;
+   background: #000;
+   font-size: 48px;
+   font-style: oblique;
+   color: #FFF;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 5px;
+   width: 33.33%;
+  line-height: 100px;
+}
+#num4 {
+  height: 200px;
+   background: #000;
+   font-size: 48px;
+   font-style: oblique;
+   color: #FFF;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 5px;
+   width: 33.33%;
+  line-height: 100px;
+}
+#num5 {
+  height: 200px;
+   background: #000;
+   font-size: 48px;
+   font-style: oblique;
+   color: #FFF;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 5px;
+   width: 33.33%;
+  line-height: 100px;
+}
+#num6 {
+  height: 200px;
+   background: #000;
+   font-size: 48px;
+   font-style: oblique;
+   color: #FFF;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 5px;
+   width: 33.33%;
+  line-height: 100px;
+}
+#num7 {
+  height: 200px;
+   background: #000;
+   font-size: 48px;
+   font-style: oblique;
+   color: #FFF;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 5px;
+   width: 33.33%;
+  line-height: 100px;
+}
+#num8 {
+  height: 200px;
+   background: #000;
+   font-size: 48px;
+   font-style: oblique;
+   color: #FFF;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 5px;
+   width: 33.33%;
+  line-height: 100px;
+}
+#num9 {
+  height: 200px;
+   background: #000;
+   font-size: 48px;
+   font-style: oblique;
+   color: #FFF;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 5px;
+   width: 33.33%;
+  line-height: 100px;
+}*/
