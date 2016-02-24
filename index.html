@@ -3,18 +3,26 @@
 <head>
   <title> Playing With Matches </title>
 <link rel="stylesheet" href="styles.css">
-  <script type="text/javascript">
-  var randomNumber = function(){
-    return Math.floor(Math.random() * 9) + 1;
-  };
-var num1 = getElementById("num1");
-var randomNumber = num1;
-console.log(randomNumber);
-  </script>
 
 </head>
 <body>
-  <div id="num1"> 1 </div>
+  <div id="num1">  </div>
+  <script type="text/javascript">
+//generates a random number between 1 and 9
+  function randomNumber(){
+  return Math.floor(Math.random() * 9) + 1;
+  };
+  // Function to print to the divs
+  function divPrint(){
+    var num1 = document.getElementById('num1');
+    num1.innerHTML = randomNumber();
+  }
+// Random Number Test
+console.log(randomNumber());
+//Calling of divPrint
+divPrint();
+  </script>
+
 </body>
 
 </html>
