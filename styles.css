@@ -1,138 +1,63 @@
-#Col1 {
-  float: left;
-  width: 100%
-}
-#num1 {
+.numberBlock {
   height: 200px;
    background: #000;
    font-size: 48px;
    font-style: oblique;
    color: #FFF;
    text-align: center;
-   margin-top: 20px;
+   margin-top: 5px;
    margin-left: 5px;
    width: 30%;
   line-height: 200px;
   border:2px solid blue;
   display: inline-block;
-}
-#num2 {
-  height: 200px;
-   background: #000;
-   font-size: 48px;
-   font-style: oblique;
-   color: #FFF;
-   text-align: center;
-   margin-top: 20px;
-   margin-left: 5px;
-   width: 30%;
-  line-height: 200px;
-    border:2px solid blue;
-    display: inline-block;
-}
-#num3 {
-  height: 200px;
-   background: #000;
-   font-size: 48px;
-   font-style: oblique;
-   color: #FFF;
-   text-align: center;
-   margin-top: 20px;
-   margin-left: 5px;
-   width: 30%;
-  line-height: 200px;
-  border:2px solid blue;
-display: inline-block;
-}
-#Col2 {
-  float: right;
+};
+#Row1{
+
   width: 100%
 }
-#num4 {
-  height: 200px;
-   background: #000;
-   font-size: 48px;
-   font-style: oblique;
-   color: #FFF;
-   text-align: center;
-   margin-top: 5px;
-   margin-left: 5px;
-   width: 30%;
-  line-height: 200px;
-  display: inline-block;
-    border:2px solid blue;
+#Row2 {
+
+  width: 100%
 }
-#num5 {
-  height: 200px;
-   background: #000;
-   font-size: 48px;
-   font-style: oblique;
-   color: #FFF;
-   text-align: center;
-   margin-top: 5px;
-   margin-left: 5px;
-   width: 30%;
-  line-height: 200px;
-display: inline-block;
-  border:2px solid blue;
-}
-#num6 {
-  height: 200px;
-   background: #000;
-   font-size: 48px;
-   font-style: oblique;
-   color: #FFF;
-   text-align: center;
-   margin-top: 5px;
-   margin-left: 5px;
-   width: 30%;
-  line-height: 200px;
-display: inline-block;
-  border:2px solid blue;
-}
-#Col3 {
-  float: right;
+#Row3 {
+
   width: 100%;
 }
-#num7 {
-  height: 200px;
-   background: #000;
-   font-size: 48px;
-   font-style: oblique;
-   color: #FFF;
-   text-align: center;
-   margin-top: 5px;
-   margin-left: 5px;
-   width: 30%;
-  line-height: 200px;
-display: inline-block;
-  border:2px solid blue;
+#gridnumrow{
+
+  width: 100%
 }
-#num8 {
-  height: 200px;
-   background: #000;
-   font-size: 48px;
-   font-style: oblique;
-   color: #FFF;
-   text-align: center;
-   margin-top: 5px;
-   margin-left: 5px;
-   width: 30%;
-  line-height: 200px;
-display: inline-block;
-  border:2px solid blue;
+.highlight {
+   background: blue;
+   color: red;
 }
-#num9 {
-  height: 200px;
-   background: #000;
-   font-size: 48px;
-   font-style: oblique;
-   color: #FFF;
-   text-align: center;
-   margin-top: 5px;
-   margin-left: 5px;
-   width: 30%;
-  line-height: 200px;
-display: inline-block;
-  border:2px solid blue;
-}
+#MessageBox {
+  height: 50px;
+  width:92.15%;
+  border: 3px solid Black;
+  margin-top: 5px;
+  margin-left: 25px;
+  text-align: center;
+  font-size: 25px;
+  font-style: oblique;
+  line-height: 50px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  border: 2px solid Blue;
+  }
+  .gridnum {
+    display: inline-block;
+    font-style: oblique;
+    font-size: 20px;
+  }
+  .gridnum2 {
+    display: inline-block;
+    font-style: oblique;
+    font-size: 20px;
+    height: 2px;
+    width: 31.8%;
+    text-align:center;
+    /*margin-left: 30px;*/
+  }
