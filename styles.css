@@ -34,7 +34,7 @@
 }
 #MessageBox {
   height: 50px;
-  width:92.15%;
+  width:92%;
   border: 3px solid Black;
   margin-top: 5px;
   margin-left: 25px;
@@ -60,4 +60,9 @@
     width: 31.8%;
     text-align:center;
     /*margin-left: 30px;*/
+  }
+  #Refresh{
+    height: 30px;
+    width: 89.1%;
+    margin-left: 40px;
   }
