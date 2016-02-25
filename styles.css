@@ -32,6 +32,14 @@
    background: blue;
    color: red;
 }
+.highlight2 {
+   background: green;
+   color: red;
+}
+.highlight3 {
+   background: purple;
+   color: red;
+}
 #MessageBox {
   height: 50px;
   width:92%;
