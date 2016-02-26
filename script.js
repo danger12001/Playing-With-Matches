@@ -36,11 +36,12 @@ for (var x = 0; x < numbers.length;x ++){
 // console.log(numbers[x].id);
   for (var y = 0; y < numbers.length;y ++){
 
-    if (numbers[x].id === numbers[y].id) {
-        numbers[x].classList.add("highlight" + match);
+for (var z = 0; z < numbers.length;z ++){}
+    if (numbers[x].id === numbers[y].id || numbers[z].id) {
+        numbers[x].classList.add("highlight");
       if (parseInt(numbers[x].id.substring(3)) % 3 === 0) {
 
-        match ++;
+
       }
     }
 
@@ -289,6 +290,12 @@ matchMessage = function(){
     var message = document.getElementById("MessageBox");
     if (num3.innerHTML === num6.innerHTML && num9.innerHTML){
       message.innerHTML = "Column 3 matches";
+    }
+    if (num1.innerHTML === num4.innerHTML && num7.innerHTML){
+      message.innerHTML = "Column 1 matches";
+    }
+    if (num2.innerHTML === num5.innerHTML && num8.innerHTML){
+      message.innerHTML = "Column 2 matches";
     }
 };
 matchMessage();
