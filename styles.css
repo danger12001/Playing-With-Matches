@@ -32,9 +32,17 @@
    background: blue;
    color: red;
 }
+.highlight2 {
+   background: green;
+   color: red;
+}
+.highlight3 {
+   background: purple;
+   color: red;
+}
 #MessageBox {
   height: 50px;
-  width:92.15%;
+  width:92%;
   border: 3px solid Black;
   margin-top: 5px;
   margin-left: 25px;
@@ -61,7 +69,15 @@
     text-align:center;
     /*margin-left: 30px;*/
   }
+<<<<<<< HEAD
 #Refresh{
   width: 92%;
   margin-left: 25px;
 }
+=======
+  #Refresh{
+    height: 30px;
+    width: 89.1%;
+    margin-left: 40px;
+  }
+>>>>>>> master
